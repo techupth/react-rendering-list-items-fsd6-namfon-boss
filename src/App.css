@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.movie-list-section {
+  background-color: #fdfbfb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  color: #181818;
+  font-size: 40px;
+  font-weight: 400px;
+  padding: 80px;
+}
+
+.movie-card {
+  width: 480px;
+  height: 260px;
+  background-color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-family: "Kanit", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.movie-info p {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.genre {
+  font-size: 16px;
+  padding: 3px 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: #eaac99;
+}
